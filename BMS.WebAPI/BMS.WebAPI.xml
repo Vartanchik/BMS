@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BMS.WebAPI</name>
+    </assembly>
+    <members>
+        <member name="M:BMS.WebAPI.Controllers.AccountController.Get(System.Int32)">
+            <summary>
+            Get a user by id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BMS.WebAPI.Controllers.AccountController.Register(BMS.WebAPI.Models.RegisterModel)">
+            <summary>
+            Create a new user
+            </summary>
+            <param name="appUserModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BMS.WebAPI.Controllers.AccountController.GetAccess(BMS.WebAPI.Models.LoginModel)">
+            <summary>
+            Get jwt access token
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BMS.WebAPI.Controllers.CommentController.Get(System.Int32)">
+            <summary>
+            Get a comment by id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BMS.WebAPI.Controllers.CommentController.Create(BMS.WebAPI.Models.CommentCreateModel)">
+            <summary>
+            Create a new comment
+            </summary>
+            <param name="commentModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BMS.WebAPI.Controllers.CommentController.Update(BMS.WebAPI.Models.CommentUpdateModel)">
+            <summary>
+            Update a comment
+            </summary>
+            <param name="commentModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BMS.WebAPI.Controllers.CommentController.Delete(System.Int32)">
+            <summary>
+            Delete a comment
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BMS.WebAPI.Controllers.PostController.Get(System.Int32)">
+            <summary>
+            Get a post by id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BMS.WebAPI.Controllers.PostController.Create(BMS.WebAPI.Models.PostCreateModel)">
+            <summary>
+            Create a new post
+            </summary>
+            <param name="postModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BMS.WebAPI.Controllers.PostController.Update(BMS.WebAPI.Models.PostUpdateModel)">
+            <summary>
+            Update a post
+            </summary>
+            <param name="postModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BMS.WebAPI.Controllers.PostController.Delete(System.Int32)">
+            <summary>
+            Delete a post
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
